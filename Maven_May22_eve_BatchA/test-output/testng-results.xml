@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-19T04:24:23 GMT-07:00" name="Suite1" finished-at="2022-09-19T04:25:38 GMT-07:00" duration-ms="75015">
+    <groups>
+    </groups>
+    <test started-at="2022-09-19T04:24:23 GMT-07:00" name="ChromeTest" finished-at="2022-09-19T04:24:59 GMT-07:00" duration-ms="35824">
+      <class name="testA.TestNgClass">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:testA.TestNgClass@4a94ee4]" started-at="2022-09-19T04:24:29 GMT-07:00" name="launchBrowser" finished-at="2022-09-19T04:24:31 GMT-07:00" duration-ms="1611" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="createPOMObject()[pri:0, instance:testA.TestNgClass@4a94ee4]" started-at="2022-09-19T04:24:31 GMT-07:00" name="createPOMObject" finished-at="2022-09-19T04:24:31 GMT-07:00" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPOMObject -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testA.TestNgClass@4a94ee4]" started-at="2022-09-19T04:24:31 GMT-07:00" name="beforeMethod" finished-at="2022-09-19T04:24:47 GMT-07:00" duration-ms="16316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test1()[pri:0, instance:testA.TestNgClass@4a94ee4]" started-at="2022-09-19T04:24:47 GMT-07:00" name="test1" finished-at="2022-09-19T04:24:51 GMT-07:00" duration-ms="3091" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="logoutFromapplication()[pri:0, instance:testA.TestNgClass@4a94ee4]" started-at="2022-09-19T04:24:51 GMT-07:00" name="logoutFromapplication" finished-at="2022-09-19T04:24:54 GMT-07:00" duration-ms="3446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromapplication -->
+        <test-method is-config="true" signature="cleanPOMObject()[pri:0, instance:testA.TestNgClass@4a94ee4]" started-at="2022-09-19T04:24:54 GMT-07:00" name="cleanPOMObject" finished-at="2022-09-19T04:24:54 GMT-07:00" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanPOMObject -->
+        <test-method is-config="true" signature="cleanBrowser()[pri:0, instance:testA.TestNgClass@4a94ee4]" started-at="2022-09-19T04:24:57 GMT-07:00" name="cleanBrowser" finished-at="2022-09-19T04:24:59 GMT-07:00" duration-ms="2367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanBrowser -->
+      </class> <!-- testA.TestNgClass -->
+      <class name="test.TestNgClass">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:test.TestNgClass@4f6ee6e4]" started-at="2022-09-19T04:24:23 GMT-07:00" name="launchBrowser" finished-at="2022-09-19T04:24:29 GMT-07:00" duration-ms="6122" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="createPOMObject()[pri:0, instance:test.TestNgClass@4f6ee6e4]" started-at="2022-09-19T04:24:31 GMT-07:00" name="createPOMObject" finished-at="2022-09-19T04:24:31 GMT-07:00" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPOMObject -->
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:test.TestNgClass@4f6ee6e4]" started-at="2022-09-19T04:24:31 GMT-07:00" name="openApplication" finished-at="2022-09-19T04:24:35 GMT-07:00" duration-ms="4333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="goBackToMessenger()[pri:1, instance:test.TestNgClass@4f6ee6e4]" started-at="2022-09-19T04:24:35 GMT-07:00" name="goBackToMessenger" finished-at="2022-09-19T04:24:37 GMT-07:00" duration-ms="1987" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goBackToMessenger -->
+        <test-method is-config="true" signature="logoutFromApplication()[pri:0, instance:test.TestNgClass@4f6ee6e4]" started-at="2022-09-19T04:24:37 GMT-07:00" name="logoutFromApplication" finished-at="2022-09-19T04:24:37 GMT-07:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplication -->
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:test.TestNgClass@4f6ee6e4]" started-at="2022-09-19T04:24:37 GMT-07:00" name="openApplication" finished-at="2022-09-19T04:24:41 GMT-07:00" duration-ms="3558" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="contactToHelpCenter()[pri:2, instance:test.TestNgClass@4f6ee6e4]" started-at="2022-09-19T04:24:41 GMT-07:00" name="contactToHelpCenter" finished-at="2022-09-19T04:24:43 GMT-07:00" duration-ms="1783" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactToHelpCenter -->
+        <test-method is-config="true" signature="logoutFromApplication()[pri:0, instance:test.TestNgClass@4f6ee6e4]" started-at="2022-09-19T04:24:43 GMT-07:00" name="logoutFromApplication" finished-at="2022-09-19T04:24:43 GMT-07:00" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplication -->
+        <test-method is-config="true" signature="cleanPOMObject()[pri:0, instance:test.TestNgClass@4f6ee6e4]" started-at="2022-09-19T04:24:43 GMT-07:00" name="cleanPOMObject" finished-at="2022-09-19T04:24:43 GMT-07:00" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanPOMObject -->
+        <test-method is-config="true" signature="cleanBrowser()[pri:0, instance:test.TestNgClass@4f6ee6e4]" started-at="2022-09-19T04:24:54 GMT-07:00" name="cleanBrowser" finished-at="2022-09-19T04:24:57 GMT-07:00" duration-ms="2659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanBrowser -->
+      </class> <!-- test.TestNgClass -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2022-09-19T04:24:59 GMT-07:00" name="FirefoxTest" finished-at="2022-09-19T04:25:38 GMT-07:00" duration-ms="39136">
+      <class name="testA.TestNgClass">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:testA.TestNgClass@55183b20]" started-at="2022-09-19T04:25:04 GMT-07:00" name="launchBrowser" finished-at="2022-09-19T04:25:08 GMT-07:00" duration-ms="3559" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FireFox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="createPOMObject()[pri:0, instance:testA.TestNgClass@55183b20]" started-at="2022-09-19T04:25:08 GMT-07:00" name="createPOMObject" finished-at="2022-09-19T04:25:08 GMT-07:00" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPOMObject -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testA.TestNgClass@55183b20]" started-at="2022-09-19T04:25:08 GMT-07:00" name="beforeMethod" finished-at="2022-09-19T04:25:29 GMT-07:00" duration-ms="21435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test1()[pri:0, instance:testA.TestNgClass@55183b20]" started-at="2022-09-19T04:25:29 GMT-07:00" name="test1" finished-at="2022-09-19T04:25:30 GMT-07:00" duration-ms="1084" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="logoutFromapplication()[pri:0, instance:testA.TestNgClass@55183b20]" started-at="2022-09-19T04:25:30 GMT-07:00" name="logoutFromapplication" finished-at="2022-09-19T04:25:33 GMT-07:00" duration-ms="2241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromapplication -->
+        <test-method is-config="true" signature="cleanPOMObject()[pri:0, instance:testA.TestNgClass@55183b20]" started-at="2022-09-19T04:25:33 GMT-07:00" name="cleanPOMObject" finished-at="2022-09-19T04:25:33 GMT-07:00" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanPOMObject -->
+        <test-method is-config="true" signature="cleanBrowser()[pri:0, instance:testA.TestNgClass@55183b20]" started-at="2022-09-19T04:25:34 GMT-07:00" name="cleanBrowser" finished-at="2022-09-19T04:25:38 GMT-07:00" duration-ms="3942" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanBrowser -->
+      </class> <!-- testA.TestNgClass -->
+      <class name="test.TestNgClass">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:test.TestNgClass@1bd4fdd]" started-at="2022-09-19T04:24:59 GMT-07:00" name="launchBrowser" finished-at="2022-09-19T04:25:04 GMT-07:00" duration-ms="5154" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FireFox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="createPOMObject()[pri:0, instance:test.TestNgClass@1bd4fdd]" started-at="2022-09-19T04:25:08 GMT-07:00" name="createPOMObject" finished-at="2022-09-19T04:25:08 GMT-07:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPOMObject -->
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:test.TestNgClass@1bd4fdd]" started-at="2022-09-19T04:25:08 GMT-07:00" name="openApplication" finished-at="2022-09-19T04:25:13 GMT-07:00" duration-ms="5058" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="goBackToMessenger()[pri:1, instance:test.TestNgClass@1bd4fdd]" started-at="2022-09-19T04:25:13 GMT-07:00" name="goBackToMessenger" finished-at="2022-09-19T04:25:15 GMT-07:00" duration-ms="2107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goBackToMessenger -->
+        <test-method is-config="true" signature="logoutFromApplication()[pri:0, instance:test.TestNgClass@1bd4fdd]" started-at="2022-09-19T04:25:15 GMT-07:00" name="logoutFromApplication" finished-at="2022-09-19T04:25:15 GMT-07:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplication -->
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:test.TestNgClass@1bd4fdd]" started-at="2022-09-19T04:25:15 GMT-07:00" name="openApplication" finished-at="2022-09-19T04:25:19 GMT-07:00" duration-ms="3967" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="contactToHelpCenter()[pri:2, instance:test.TestNgClass@1bd4fdd]" started-at="2022-09-19T04:25:19 GMT-07:00" name="contactToHelpCenter" finished-at="2022-09-19T04:25:20 GMT-07:00" duration-ms="1118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactToHelpCenter -->
+        <test-method is-config="true" signature="logoutFromApplication()[pri:0, instance:test.TestNgClass@1bd4fdd]" started-at="2022-09-19T04:25:20 GMT-07:00" name="logoutFromApplication" finished-at="2022-09-19T04:25:20 GMT-07:00" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplication -->
+        <test-method is-config="true" signature="cleanPOMObject()[pri:0, instance:test.TestNgClass@1bd4fdd]" started-at="2022-09-19T04:25:20 GMT-07:00" name="cleanPOMObject" finished-at="2022-09-19T04:25:20 GMT-07:00" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanPOMObject -->
+        <test-method is-config="true" signature="cleanBrowser()[pri:0, instance:test.TestNgClass@1bd4fdd]" started-at="2022-09-19T04:25:33 GMT-07:00" name="cleanBrowser" finished-at="2022-09-19T04:25:34 GMT-07:00" duration-ms="1705" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanBrowser -->
+      </class> <!-- test.TestNgClass -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- Suite1 -->
+</testng-results>
