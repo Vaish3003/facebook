@@ -19,13 +19,7 @@ public class Base {
 	    WebDriver driver = new  FirefoxDriver();
 	    return driver;
 	}
-//	public static WebDriver openFirefoxBrowser()
-//	{
-//		System.setProperty("webdriver.gecko.driver","C:\\Users\\Lenovo\\Downloads\\SELENIUM\\geckodriver-v0.31.0-win64\\geckodriver.exe");
-//	    WebDriver driver = new  FirefoxDriver();
-//	    return driver;
-//	}
-	
+
 	
 	
 }
