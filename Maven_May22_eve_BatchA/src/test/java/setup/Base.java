@@ -21,7 +21,7 @@ public class Base {
 	}
 //	public static WebDriver openFirefoxBrowser()
 //	{
-//		System.setProperty("webdriver.gecko.driver","C:\\Users\\Lenovo\\Downloads\\SELENIUM\\geckodriver-v0.31.0-win64\\geckodriver.exe");
+//		System.setProperty("webdriver.gecko.driver","C:\\User\\Downloads\\SELENIUM\\-v0.31.0-win64\\geckodriver.exe");
 //	    WebDriver driver = new  FirefoxDriver();
 //	    return driver;
 //	}
